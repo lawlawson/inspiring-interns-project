@@ -14,16 +14,35 @@ body {
   margin: 0px;
   padding: 0px;
   background-color: #202020;
-  color: green; }
+  color: #0000ff; }
 
 /*Card styling*/
 .card {
-  height: 200px;
+  margin-top: 100px;
+  height: 500px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid greenyellow;
-  margin: 0 200px; }
+  border: 1px solid greenyellow; }
+
+hr {
+  border: 1px solid #0000ff; }
+
+/*Card styling card body */
+.card-body {
+  background-color: #fff;
+  border-radius: 20px 20px 0 0;
+  padding: 20px 100px;
+  font-size: 26px; }
+
+/*Image styling*/
+img {
+  border-radius: 5px 5px 0 0; }
+
+/* Stats*/
+.stats {
+  display: flex;
+  flex-direction: column; }
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
