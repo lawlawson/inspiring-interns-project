@@ -61,19 +61,28 @@ body {
 /* Stats*/
 .stats {
   display: flex;
-  flex-direction: column; }
+  flex-direction: row;
+  margin: 30px 20px; }
 
 .patents-row-social {
-  display: flex;
-  flex-direction: row; }
+  display: inline;
+  width: 30%; }
 
 .followers-row-social {
-  display: flex;
-  flex-direction: row; }
+  display: inline;
+  width: 30%; }
 
 .following-row-social {
-  display: flex;
-  flex-direction: row; }
+  display: inline;
+  width: 30%; }
+
+.social-text-styling {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 900; }
+
+.bold-text {
+  font-weight: 900; }
 
 /*Categories Text*/
 .categories {
