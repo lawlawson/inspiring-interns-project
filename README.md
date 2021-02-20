@@ -1,4 +1,4 @@
-# Steve Jobs Card Project
+# Static Website Project
 
 ## Purpose
 
@@ -7,7 +7,7 @@ The aim of this project was to replicate and create a static web version of a pr
 ## Design
 
 The original design provided:
-[Design](App\Designs\RS_UI test.jpg)
+![Design](App\Designs\RS_UI test.jpg)
 
 ## Tech used
 
@@ -17,9 +17,9 @@ The original design provided:
 
 ## Installation/Running Locally
 
-I have not included the node modules in the repository for this project, so if you wish to run the project locally you will have to install them.
+I have not included the node modules in the repository for this project, so if you wish to run the project locally you will have to install them. To get started fork the repo and go to the project folder in your terminal.
 
-Install
+**Install**
 
 To install the required dependencies use the following command:
 
