@@ -46,7 +46,7 @@ body {
 /*Heading name*/
 .heading-name {
   font-size: 50px;
-  font-weight: bolder;
+  font-weight: $font-weight;
 }
 
 /*Ellipsis*/
@@ -63,9 +63,19 @@ body {
   margin-left: 5px;
   margin-top: 13px;
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 800;
   margin-bottom: 20px;
+}
+
+/* Styling of text links */
+
+a:link,
+a:hover,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: $font-color;
 }
 
 /*Card styling*/
@@ -83,7 +93,7 @@ body {
 
 /* General card text*/
 .card-text {
-  font-size: 40px;
+  font-size: 35px;
   text-transform: capitalize;
   padding: 0;
 }
@@ -92,7 +102,7 @@ body {
 .card-body {
   background-color: #fff;
   border-radius: 25px 25px 0 0;
-  padding: 40px 50px;
+  padding: 45px 50px;
   font-size: 24px;
 }
 
@@ -109,7 +119,7 @@ body {
 .stats {
   display: flex;
   flex-flow: row;
-  margin: 30px 20px;
+  margin: 30px 0;
 }
 
 .patents-row-social {
@@ -129,21 +139,21 @@ body {
 
 .social-text-styling {
   text-transform: uppercase;
-  font-size: 20px;
-  font-weight: 900;
+  font-size: 16px;
+  font-weight: $font-weight;
 }
 
 .bold-text {
-  font-weight: 900;
+  font-weight: $font-weight;
   font-size: 30px;
 }
 
 /* Categories Text */
 .categories {
   text-transform: uppercase;
-  font-weight: bolder;
+  font-weight: $font-weight;
   margin: 30px 0;
-  font-size: 19px;
+  font-size: 18px;
 }
 
 /* Arrow styling */
