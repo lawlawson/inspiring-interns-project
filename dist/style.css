@@ -24,15 +24,18 @@ body {
 .steve-jobs-picture {
   background-image: url("/App/Img/Steve_Jobs_Plain.png");
   background-repeat: no-repeat;
-  height: 300px;
-  width: 300px; }
+  height: 429px;
+  width: 690px; }
 
 /* Back button*/
 .back-button {
   background-image: url("/App/Img/Back.png");
-  height: 70px;
-  width: 50px;
-  background-repeat: no-repeat; }
+  margin-top: 65px;
+  height: 65px;
+  width: 110px;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer; }
 
 /*Heading name*/
 .heading-name {
