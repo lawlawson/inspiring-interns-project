@@ -90,6 +90,7 @@ a:active {
   padding: 45px 50px;
   font-size: 24px; }
 
+/* Top row styling*/
 .row {
   display: flex;
   flex-direction: row; }

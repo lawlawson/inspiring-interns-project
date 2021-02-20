@@ -7,7 +7,7 @@ The aim of this project was to replicate and create a static web version of a pr
 ## Design
 
 The original design provided:
-![alt text](App\Designs\RS_UI test.jpg)
+[Design](App\Designs\RS_UI test.jpg)
 
 ## Tech used
 
@@ -15,12 +15,12 @@ The original design provided:
 
 - [SaSS](https://sass-lang.com/)
 
-## Installation
+## Installation/Running Locally
 
-I have not included node modules for this project, so you will need to download it should you wish to run it locally.
-
-Node Modules:
+I have not included the node modules in the repository for this project, so if you wish to run the project locally you will have to install them.
 
 Install
 
-npm install
+To install the required dependencies use the following command:
+
+`npm install`
