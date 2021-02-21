@@ -15,6 +15,10 @@ The original design provided:
 
 - [SaSS](https://sass-lang.com/)
 
+## Deploy Status
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/de6d8a06-afcd-4e11-bb09-743690ce14f0/deploy-status)](https://app.netlify.com/sites/static-website-build/deploys)
+
 ## Installation/Running Locally
 
 I have not included the node modules in the repository for this project, so if you wish to run the project locally you will have to install them. To get started fork the repo and go to the project folder in your terminal.
