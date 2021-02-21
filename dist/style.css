@@ -3,12 +3,14 @@
 /* GLOBAL STYLES*/
 html {
   font-size: 100%;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 *,
 *::before,
 *::after {
-  box-sizing: inherit; }
+  box-sizing: inherit;
+}
 
 body {
   font-family: Helvetica, Arial, sans-serif;
@@ -16,40 +18,47 @@ body {
   margin: 0px;
   padding: 0px;
   background-color: #000;
-  color: #0000ff; }
+  color: #0000ff;
+}
 
 .container {
-  margin: auto; }
+  margin: auto;
+}
 
 /* Steve Jobs picture*/
 .steve-jobs-picture {
-  background-image: url("/App/Img/Steve_Jobs_Plain.png");
+  background-image: url('../Img/Steve_Jobs_Plain.png');
   background-repeat: no-repeat;
   height: 429px;
-  width: 690px; }
+  width: 690px;
+}
 
 /* Back button*/
 .back-button {
-  background-image: url("/App/Img/Back.png");
+  background-image: url('../Img/Back.png');
   margin-top: 65px;
   height: 65px;
   width: 110px;
   background-repeat: no-repeat;
   border: none;
-  cursor: pointer; }
+  cursor: pointer;
+}
 
 /*Heading name*/
 .heading-name {
   font-size: 50px;
-  font-weight: 900; }
+  font-weight: 900;
+}
 
 /*Ellipsis*/
 .ellipsis {
-  margin-left: auto; }
+  margin-left: auto;
+}
 
 /*Follow button and text*/
 .follow-button {
-  height: 40px; }
+  height: 40px;
+}
 
 .follow-text {
   margin-left: 5px;
@@ -57,7 +66,8 @@ body {
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 800;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+}
 
 /* Styling of text links */
 a:link,
@@ -65,88 +75,105 @@ a:hover,
 a:visited,
 a:active {
   text-decoration: none;
-  color: #0000ff; }
+  color: #0000ff;
+}
 
 /*Card styling*/
 .card {
   height: 800px;
   display: flex;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+}
 
 .card-title {
-  align-items: center; }
+  align-items: center;
+}
 
 /* General card text*/
 .card-text {
   font-size: 35px;
   text-transform: capitalize;
-  padding: 0; }
+  padding: 0;
+}
 
 /*Card styling card body */
 .card-body {
   background-color: #fff;
   border-radius: 25px 25px 0 0;
   padding: 45px 50px;
-  font-size: 24px; }
+  font-size: 24px;
+}
 
 /* Top row styling*/
 .row {
   display: flex;
-  flex-direction: row; }
+  flex-direction: row;
+}
 
 .follow-row {
   display: flex;
-  flex-direction: row; }
+  flex-direction: row;
+}
 
 /* Stats styling*/
 .stats {
   display: flex;
   flex-flow: row;
-  margin: 30px 0; }
+  margin: 30px 0;
+}
 
 .patents-row-social {
   display: inline;
-  width: 30%; }
+  width: 30%;
+}
 
 .followers-row-social {
   display: inline;
-  width: 30%; }
+  width: 30%;
+}
 
 .following-row-social {
   display: inline;
-  width: 30%; }
+  width: 30%;
+}
 
 .social-text-styling {
   text-transform: uppercase;
   font-size: 16px;
-  font-weight: 900; }
+  font-weight: 900;
+}
 
 .bold-text {
   font-weight: 900;
-  font-size: 30px; }
+  font-size: 30px;
+}
 
 /* Categories Text */
 .categories {
   text-transform: uppercase;
   font-weight: 900;
   margin: 30px 0;
-  font-size: 18px; }
+  font-size: 18px;
+}
 
 /* Arrow styling */
 .arrow-div {
-  background-image: url("/App/Img/Arrow.png");
+  background-image: url('../Img/Arrow.png');
   background-repeat: no-repeat;
   background-position: right;
-  margin: 40px 0; }
+  margin: 40px 0;
+}
 
 /* Styling of horizontal line */
 hr {
-  border: 1px solid #0000ff; }
+  border: 1px solid #0000ff;
+}
 
 .row-social {
   text-align: center;
-  width: 100%; }
+  width: 100%;
+}
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -237,7 +264,8 @@ video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  vertical-align: baseline; }
+  vertical-align: baseline;
+}
 
 /* HTML5 display-role reset for older browsers */
 article,
@@ -251,26 +279,32 @@ hgroup,
 menu,
 nav,
 section {
-  display: block; }
+  display: block;
+}
 
 body {
-  line-height: 1; }
+  line-height: 1;
+}
 
 ol,
 ul {
-  list-style: none; }
+  list-style: none;
+}
 
 blockquote,
 q {
-  quotes: none; }
+  quotes: none;
+}
 
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
   content: '';
-  content: none; }
+  content: none;
+}
 
 table {
   border-collapse: collapse;
-  border-spacing: 0; }
+  border-spacing: 0;
+}
