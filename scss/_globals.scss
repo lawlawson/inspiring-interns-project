@@ -26,7 +26,7 @@ body {
 
 /* Steve Jobs picture*/
 .steve-jobs-picture {
-  background-image: url('/App/Img/Steve_Jobs_Plain.png');
+  background-image: url('./../Img/Steve_Jobs_Plain.png');
   background-repeat: no-repeat;
   height: 429px;
   width: 690px;
@@ -34,7 +34,7 @@ body {
 
 /* Back button*/
 .back-button {
-  background-image: url('/App/Img/Back.png');
+  background-image: url('./../Img/Back.png');
   margin-top: 65px;
   height: 65px;
   width: 110px;
