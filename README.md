@@ -8,7 +8,7 @@ The aim of this project was to replicate and create a static web version of a pr
 
 The original design provided:
 
-- [Design](https://static-website-build.netlify.app/Designs/RS_UI%20test.jpg)
+- [Design provided](https://static-website-build.netlify.app/Designs/RS_UI%20test.jpg)
 
 ## Tech used
 
@@ -22,10 +22,14 @@ The original design provided:
 
 ## Installation/Running Locally
 
-I have not included the node modules in the repository for this project, so if you wish to run the project locally you will have to install them. To get started fork the repo and go to the project folder in your terminal.
-
 **Install**
 
 To install the required dependencies use the following command:
 
 `npm install`
+
+**Compile Sass**
+
+`npm run sass`
+
+If you are using VSCode and you have the live server plugin installed, you can right-click the index.html file and select 'Open with Live Server' or simply double click the index.html file to open the web page locally.
