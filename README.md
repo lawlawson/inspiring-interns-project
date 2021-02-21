@@ -7,7 +7,8 @@ The aim of this project was to replicate and create a static web version of a pr
 ## Design
 
 The original design provided:
-![Design](App\Designs\RS_UI test.jpg)
+
+- [Design](https://static-website-build.netlify.app/Designs/RS_UI%20test.jpg)
 
 ## Tech used
 
