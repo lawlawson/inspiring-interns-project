@@ -2,8 +2,7 @@
 
 ## Purpose
 
-The aim of this project was to replicate and create a static web version of a provided design using HTML CSS/SCSS, as part of my application for the Junior Web Developer position with Red Snapper Digital Agency.
-
+The aim of this project was to replicate and create a static web version of a provided design using HTML CSS/SCSS.
 ## Design
 
 The original design provided:
